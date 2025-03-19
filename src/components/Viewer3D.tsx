@@ -98,6 +98,7 @@ const Viewer3D = () => {
 			launchFullscreen(ref.current!);
 		}
 	};
+	
 
 	const handleArClick = async (arOnFlyUrl: string) => {
 		if (IS_ANDROID || IS_IOS) {
