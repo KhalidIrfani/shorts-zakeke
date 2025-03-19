@@ -618,7 +618,8 @@ const Designer: FC<{ onCloseClick?: () => void }> = ({ onCloseClick }) => {
 									<Icon>
 										<Add />
 									</Icon>
-									<span>{T._('Add clipart', 'Composer')}</span>
+									<span>{T._('Add Embellishments', 'Composer')}</span>
+									{/* // <span>{T._('Add clipart', 'Composer')}</span> */}
 								</Button>
 							)}
 
